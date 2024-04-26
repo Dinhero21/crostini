@@ -8,4 +8,4 @@ then
   ./install/flatpak.sh
 fi
 
-sudo flatpak install flathub "$appid" -y --noninteractive
+sudo flatpak install flathub "$appid" -y --noninteractive --verbose
